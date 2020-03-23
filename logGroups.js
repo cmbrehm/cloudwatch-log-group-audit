@@ -59,5 +59,10 @@ async function getLogGroupStats() {
       };
     })
 }
-getlogGroupInfo().then(console.log);
-getLogGroupStats().then(r=>console.log(JSON.stringify(r, null, 2)));
+
+
+// gets basic info on log groups
+//getlogGroupInfo().then(console.log);
+
+// combine log group info with incoming byte datapoints in single structure
+//getLogGroupStats().then(r=>console.log(JSON.stringify(r, null, 2)));
